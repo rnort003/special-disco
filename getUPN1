@@ -1,0 +1,3 @@
+param ([string]$addr)
+$result = get-aduser -filter {emailaddress -eq $addr} | select -expandproperty UserPrincipalName
+return $result

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<configuration>
+  <startup>
+  </startup>
+  <connSettings>
+    <!--Vars -->
+    <add key="username" value="Admin@contoso.onmicrosoft.com"/>
+    <add key="password" value="TestPW"/>
+    <add key="PSusername" value="PSadmin"/>
+    <add key="PSpassword" value="PSadminpass"/>
+  </connSettings>
+</configuration>
