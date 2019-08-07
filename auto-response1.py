@@ -172,7 +172,7 @@ def main():
     # send alert to appropiate group based on email criteria
     if crm:
         email_ss(crm)
-    elif not_crm:
+    if not_crm:
         email_SC(not_crm)
 
 
