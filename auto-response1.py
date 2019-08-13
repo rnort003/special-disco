@@ -141,6 +141,7 @@ def get_latest_file():
     read = open('./recentlog.txt', 'r+')
     text = read.readline()
     text=text.strip()
+    #Check to make sure we are checking a new file and not respoding to an old alert 
     if text == file_name:
         print('no new logs')
         exit()
